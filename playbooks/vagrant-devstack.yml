@@ -22,7 +22,6 @@
     - oraclejdk
     - elasticsearch
     - forum
-    - ora
     - browsers
     - local_dev
     - demo

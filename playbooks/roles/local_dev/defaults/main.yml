@@ -12,10 +12,6 @@ localdev_accounts:
     - { user: "{{ forum_user }}",home: "{{ forum_app_dir }}",
         env: "forum_env", repo: "cs_comments_service" }
 
-    - { user: "{{ ora_user }}", home: "{{ ora_app_dir }}",
-        env: "ora_env", repo: "ora" }
-
-
 # Helpful system packages for local dev
 local_dev_pkgs:
     - vim
